@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated synthetic data (large, regenerate locally)
+data_generator/output/
+landing_local/
+*.csv.gz
+
+# Secrets - never commit
+.env
+*.pem
+.databricks/
+databricks-cli.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+.venv/
